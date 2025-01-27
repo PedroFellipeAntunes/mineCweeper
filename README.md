@@ -1,6 +1,7 @@
 # MineCweeper
 
 MineCweeper is a terminal-based Minesweeper game implemented in C, utilizing the `ncurses` library for an interactive gaming experience. Players navigate a grid, avoid hidden bombs, and aim to uncover all non-bomb spaces. The game also tracks and scores performance based on speed, accuracy, and difficulty.
+(The reason this code uses a pointer matrix is that I made this to study memory allocation with pointers)
 
 <p align="center">
   <img src="IMAGE mineCweeper.png" width="450" alt="Application Interface">
