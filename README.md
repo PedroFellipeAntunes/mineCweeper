@@ -8,7 +8,7 @@ MineCweeper is a terminal-based Minesweeper game implemented in C, utilizing the
 
 ## How to Play
 
-- Start the game by running the compiled binary: `./minecweeper`
+- Start the game by running the compiled binary: `./mineCweeper`
 - Use arrow keys to navigate the grid.
 - Press Enter to reveal a cell.
 - If the cell contains a bomb, the game ends.
@@ -19,4 +19,4 @@ MineCweeper is a terminal-based Minesweeper game implemented in C, utilizing the
 ## Compilation
 To compile the game, ensure you have `gcc` and the `ncurses` library installed. Use the following command:
 ```bash
-gcc -o minecweeper minecweeper.c -lncurses
+gcc -o mineCweeper minecweeper.c -lncurses
